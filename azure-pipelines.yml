@@ -1,5 +1,5 @@
 trigger:
-- '*'
+- testing-azure-pipelines
 
 pr: none
 
