@@ -1,0 +1,13 @@
+trigger:
+- '*'
+
+pr: '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    pip install flake8
+    flake8
+  displayName: 'Run Flake8'
