@@ -1,7 +1,8 @@
 trigger:
 - testing-azure-pipelines
 
-pr: none
+pr:
+- '*'
 
 pool:
   vmImage: 'ubuntu-latest'
